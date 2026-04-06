@@ -14,9 +14,9 @@ export default function About() {
         </div>
 
         <div>
-          <p className="text-sm uppercase tracking-[0.3em] text-zinc-500 mb-3">About</p>
+          <p className="text-sm uppercase tracking-[0.3em] text-zinc-400 dark:text-zinc-500 mb-3">About</p>
           <h2 className="text-4xl font-bold tracking-tight mb-6">The Photographer</h2>
-          <div className="space-y-4 text-zinc-400 leading-relaxed">
+          <div className="space-y-4 text-zinc-500 dark:text-zinc-400 leading-relaxed">
             <p>
               I&apos;m a photographer drawn to the interplay of light and shadow.
               My work spans landscapes, portraits, and street photography — always
@@ -36,15 +36,15 @@ export default function About() {
           <div className="mt-8 flex gap-12 text-center">
             <div>
               <p className="text-3xl font-bold">10+</p>
-              <p className="text-sm text-zinc-500 mt-1">Years Experience</p>
+              <p className="text-sm text-zinc-400 dark:text-zinc-500 mt-1">Years Experience</p>
             </div>
             <div>
               <p className="text-3xl font-bold">500+</p>
-              <p className="text-sm text-zinc-500 mt-1">Projects</p>
+              <p className="text-sm text-zinc-400 dark:text-zinc-500 mt-1">Projects</p>
             </div>
             <div>
               <p className="text-3xl font-bold">50+</p>
-              <p className="text-sm text-zinc-500 mt-1">Clients</p>
+              <p className="text-sm text-zinc-400 dark:text-zinc-500 mt-1">Clients</p>
             </div>
           </div>
         </div>
